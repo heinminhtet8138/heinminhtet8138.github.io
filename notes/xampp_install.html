@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>XAMPP Environment Setup</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="container my-5 text-justify">
+	<div class="row">
+		<div class="offset-md- col-md-12">
+			<h1 class="text-primary">XMPP install in UBUNTU</h1>
+			<hr style="background: green;">
+			<h3 class="">Step1=> <code><a href="https://www.apachefriends.org/" target="_blank">apachefriends.org</a> မှာ xampp for linux ကို download ဆွဲပါ။</code></h3>
+
+			<h3>Step2=> <code>Terminal [ctrl+Alt+T] ဖွင့်ပါ။</code></h3>
+
+			<h3>Step3=> <code>whoami လို့ရိုက်ပါ။ user name ကျလာပါလိမ့်မည်။</code></h3>
+			<h3>Step4=> <code>cd /home/[user name]/Downloads => user name က အပေါ်ကကျလာတဲ့ username ကိုထည့်ပေးပါ။</code></h3>
+			<h3>Step5=> <code>sudo chmod 755 [package name] => packagename မှာ download ဆွဲထားသော file name ဖြစ်သည်။ “xampp” လို့အစစလုံးရိုက်ပြီး Tab Key နှိပ်နိုင်သည်။</code></h3>
+			<h3>Step6=> <code>ls -l [package name] </code></h3>
+
+			<h3>Step7 => <code>sudo ./[package name]</code></h3>
+
+			<h3>Step8 => <code>Xampp setup file ပွင့်လာပါလိမ့်မည်။</code></h3>
+
+			<h3>Step9 => <code>Next=>Next->Next ဖြင့် Install တင်ပါ။</code></h3>
+
+			<h3>Step10 => <code>Finish ပြီးသွားလျှင် Terminal [ctrl+Alt+T] ဖွင့်ပါ။</code></h3>
+
+			<h3>Step11 => <code>sudo /opt/lampp/lampp start </code></h3>
+
+			<h3>Step12 => <code>Apache, MySql, ProFTPD တို့ OK ဖြစ်နေလျှင် Apache Xampp Install တင်ခြင်းပြီးမြောက်ပါသည်။</code></h3>
+
+			<h3>Step13 => <code>အကယ်၍ MySql error တတ်နေလျှင်</code></h3>
+
+			<h3>Step14 => <code>Terminal [ctrl+Alt+T] တွင်</code></h3>
+
+			<h3>Step15 => <code>sudo apt install net-tools  ဟုရိုက်၍ Enter ခေါက်ပါ။</code></h3>
+
+			<h3>Step16 => <code>အကယ်၍ net-tools ကို မသိပါက...</code></h3>
+
+			<h3>Step17 => <code>sudo apt update လုပ်ပါ။</code></h3>
+
+			<h3>Step18 => <code>net-tools ကို install ပြန်တင်ပါ။</code></h3>
+
+			<h3>Step19 => <code>ပြီးလျှင် xampp start ပြန်လုပ်ပါ။</code></h3>
+
+			<h3>Step20 => <code>sudo /opt/lampp/lampp start</code></h3>
+
+			<h2><code>Ok မှာစိုပြေနေပါလိမ့်မည်။</code></h2>
+
+			<br>
+
+			<h1 class="text-info">htdocs Folder ကို Permission ပေးခြင်း</h1>
+			<hr style="background: black;">
+
+			<h3>Step21 => <code>sudo chmod -R 777 /opt/lampp/htdocs</code></h3>
+
+			
+		</div>
+	</div>
+	
+
+</div>
+
+
+
+</body>
+</html>

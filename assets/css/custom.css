@@ -23,3 +23,7 @@
 .scroll-to-top i {
   font-weight: 800;
 }
+
+.bg-cus{
+  background-color: rgba(67,135,83,.3);
+}
